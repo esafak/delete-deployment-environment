@@ -4,12 +4,13 @@
     "module": "commonjs",
     "strict": true,
     "declaration": false,
-    "target": "es6",
+    "target": "es2022",
     "sourceMap": true,
-    "lib": ["es6"],
+    "lib": ["es2022", "dom"],
     "outDir": "lib",
     "rootDir": "src",
     "moduleResolution": "node",
+    "ignoreDeprecations": "6.0"
   },
   "exclude": ["node_modules", "__tests__/*.test.ts"],
 }

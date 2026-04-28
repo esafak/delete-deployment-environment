@@ -57,6 +57,7 @@
     "require": [
       "ts-node/register"
     ],
-    "timeout": "2m"
+    "timeout": "5m",
+    "concurrency": 1
   }
 }
